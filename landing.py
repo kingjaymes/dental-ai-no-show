@@ -49,5 +49,5 @@ st.write(f"**Potential recovered with Opalon AI:** ${recovered_with_ai:,.2f}")
 
 st.header("Contact")
 st.write("Email: **opalondental@gmail.com**")
-st.write("LinkedIn: <a href="https://www.linkedin.com/in/james-opaluwa-76417a118">Connect</a>")
+st.write('LinkedIn: <a href="https://www.linkedin.com/in/james-opaluwa-76417a118">Connect</a>', unsafe_allow_html=True)
 
