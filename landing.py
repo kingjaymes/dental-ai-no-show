@@ -24,10 +24,6 @@ st.write("""
 • Multi-location dental groups
 """)
 
-st.header("Contact")
-st.write("Email: **opalondental@gmail.com**")
-st.write("Connect on LinkedIn **https://www.linkedin.com/in/james-opaluwa-76417a118**")
-
 st.markdown("---")
 st.header("💰 Clinic Revenue Loss Calculator")
 
@@ -50,3 +46,8 @@ recovered_with_ai = loss_per_month * (ai_reduction_pct / 100)
 st.markdown("### 💸 Estimated Loss & Recovery")
 st.write(f"**Monthly revenue lost due to no-shows:** ${loss_per_month:,.2f}")
 st.write(f"**Potential recovered with Opalon AI:** ${recovered_with_ai:,.2f}")
+
+st.header("Contact")
+st.write("Email: **opalondental@gmail.com**")
+st.write("Connect on LinkedIn **https://www.linkedin.com/in/james-opaluwa-76417a118**")
+
