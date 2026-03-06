@@ -36,8 +36,8 @@ st.header("Product Demo")
 
 st.write("See our AI dashboard in action.")
 
-if st.button("Open AI Dashboard"):
-    st.switch_page("dashboard.py")
+if st.button("Open AI Dashboard Demo"):
+    st.switch_page("pages/dashboard.py")
 
 st.header("Who This Is For")
 
