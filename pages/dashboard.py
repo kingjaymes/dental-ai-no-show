@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import mysql.connector
 
 # ----------------------------
 # Streamlit Page Setup (FIRST)
@@ -10,6 +11,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+st.set_page_config(page_title="Dashboard")
 
 # ----------------------------
 # Load Appointments (CSV for demo)
